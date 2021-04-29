@@ -1,0 +1,38 @@
+package Exercise4_2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Fruit f = new Fruit(); //universal
+		System.out.println("\t\t\tFruits.");
+		System.out.println("_______________________________");
+		
+		//Apple
+	    Apple objA = new Apple("Apple", 13.50, 5);
+		System.out.println("Apple\n" + objA);
+		System.out.println("_______________________________");
+		
+		//Green Apple
+		GreenApple objB = new GreenApple("Green Apple", 12.50, 4, 0.89, "India");
+		System.out.println("Green Appln\n" + objB);
+		System.out.println("_______________________________");
+		
+		//Red Apple
+		RedApple objC = new RedApple("Red Apple", 20.30, 10, 56.34, 21.0);
+		System.out.println("Red Apple\n" + objC);
+		System.out.println("_______________________________");
+		
+		//Manggo
+		Manggo objD = new Manggo("Manggo", "Big", 15.60);
+		System.out.println("Manggo\n" + objD);
+		System.out.println("_______________________________");
+				
+		//Strawberry
+		Strawberry objE = new Strawberry("Strawberry", 'y', "Sour");
+		System.out.println("Srawberry\n" + objE);
+		System.out.println("_______________________________");
+						
+	}
+
+}
