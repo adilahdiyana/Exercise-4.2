@@ -48,7 +48,7 @@ public class Apple extends Fruit { //subclass for Fruit
 	}
 	
 	public String toString() { //overriding method
-		return 	"Type\t: " +  name + "\n" + "Price\t: RM " + price + "Quantity\t: " + quantity + "\n" + "Total Price\t: RM " + totalPrice() + "\n" + "Discount\t: RM " + getDiscount() + "\n" + "Total Payment\t: RM " + totalPayment();
+		return 	"Type\t: " +  name + "\n" + "Price\t: RM " + price + "\n" + "Quantity\t: " + quantity + "\n" + "Total Price\t: RM " + totalPrice() + "\n" + "Discount\t: RM " + getDiscount() + "\n" + "Total Payment\t: RM " + totalPayment();
 	}
 	
 } //end for Apple class
