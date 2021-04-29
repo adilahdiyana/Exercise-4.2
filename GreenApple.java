@@ -44,7 +44,7 @@ public class GreenApple extends Apple { //subclass for Apple
 	}
 	
 	public String toString() { //overriding method
-		return "Type\t: " +  name + "\n" + "Price\t: RM " + price + "Quantity\t: " + quantity + "Weight\t: " + weight + "kg" + "\n" + "Brand\t: " + brand + "\n" + "Total weight: " + totalWeight() + "kg";
+		return "Type\t: " +  name + "\n" + "Price\t: RM " + price + "\n" + Quantity\t: " + quantity + "\n" + "Weight\t: " + weight + "kg" + "\n" + "Brand\t: " + brand + "\n" + "Total weight: " + totalWeight() + "kg";
 	}
 	
 } //end for Green Apple class
